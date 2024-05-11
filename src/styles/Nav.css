@@ -3,3 +3,22 @@
     width: 100%;
     background-image: url(../assets/images/technology-background-1632715.jpg);
   }
+
+  .navbarLink {
+    float: right;
+  }
+
+  .spacer {
+    width: 50%;
+  }
+
+  .coolimagetext {
+    float: left;
+    margin-top: 10px;
+    background-color: aqua;
+    color: var(--coolimagetext);
+    padding: 10px;
+    width: 50%;
+    font-size: 25px;
+    font-weight: bold;
+  }

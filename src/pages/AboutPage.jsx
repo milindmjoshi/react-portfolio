@@ -2,6 +2,7 @@
 export default function AboutPage() {
   return (
     <div className="container pt-4">
+      <h2>About Me</h2>
       <p>
       Full stack developer with 5 years experience in MERN stack: Mongo, Elasticsearch, React, and Node.
       <br/>     

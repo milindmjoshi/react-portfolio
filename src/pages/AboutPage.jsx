@@ -1,10 +1,11 @@
 // This is a static page mocking an "About Us" section for our fake user data
+import milind from "../assets/images/Milind.jpg";
 export default function AboutPage() {
   return (
     <div className="container pt-4">
       <h2>About Me</h2>
       <p>
-      Full stack developer with 5 years experience in MERN stack: Mongo, Elasticsearch, React, and Node.
+      Full stack developer with 5 years experience in MERN stack: Mongo, Express, React, and Node.
       <br/>     
       <br/>     
       Enjoy working in fast paced collaborative environments with emphasis on team work. 
@@ -14,6 +15,9 @@ export default function AboutPage() {
       <br/>
       Take a look at my work samples at the portfolio link. 
       </p>
+      <br/>
+      <br/>
+      <img src={milind}/>
     </div>
   );
 }

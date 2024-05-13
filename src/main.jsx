@@ -9,7 +9,7 @@ import './index.css';
 import App from './App';
 import ErrorPage from './pages/ErrorPage';
 import ContactPage from './pages/ContactPage';
-// import ProfilePage from './pages/ProfilePage';
+import ResumePage from './pages/ResumePage';
 import AboutPage from './pages/AboutPage';
 import PortfolioPage from './pages/PortfolioPage';
 
@@ -34,7 +34,7 @@ const router = createBrowserRouter([
       },
       {
         path: 'resume',
-        element: <AboutPage />,
+        element: <ResumePage />,
       },
     ],
   },

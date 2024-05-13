@@ -4,6 +4,8 @@ import weatherforecast from '../assets/images/weatherforecast.png'
 import workday from '../assets/images/workday.png'
 import password from '../assets/images/password.png'
 
+import Project from '../components/Project';
+
 
 const worksamplelink = 'https://milindmjoshi.github.io/week1HTMLCSS/';
 const bebetterlink = 'https://milindmjoshi.github.io/be-better/';
@@ -18,40 +20,11 @@ export default function PortfolioPage() {
 
   return (
     <div className="worksample">
-    <div className="mainsample">
-         <a href={worksamplelink}> 
-            <img src={worksamplemain} alt="Sample Image"/> 
-        </a> 
-        <div className="overlaytext">508 compliant website <div className="overlay-text-tech"> HTML/CSS</div></div>
+     <Project link={worksamplelink} img={worksamplemain} imgText="main sample" text="508 compliant website" class="mainsample"/>
+    <Project link={weatherlink} img={weatherforecast} imgText="Weather Forecast Image" text="Weather Forecast" class="sample1"/>
+    <Project link={workdaylink} img={workday} imgText="Workday Image" text="Workday Scheduler" class="sample2"/>
+    <Project link={bebetterlink} img={bebetter} imgText="Bebetter Image" text="Be-Better" class="sample3"/>
+    <Project link={passwordlink} img={password} imgText="Password Generator Image" text="Password Generator" class="sample4"/>
     </div>
-    <div className="sample1">
-        <a href={weatherlink}> 
-        <img src={weatherforecast} alt="Weather Forecast Image"/> 
-        </a> 
-        <div className="overlaytext-mini">Weather Forecast <div className="overlay-text-tech"> HTML/CSS/JS</div></div>
-
-    </div>
-    <div className="sample2">
-        <a href={workdaylink}> 
-        <img src={workday} alt="Workday Image"/> 
-        </a> 
-        <div className="overlaytext-mini">Workday Scheduler <div className="overlay-text-tech"> HTML/CSS/JS</div></div>
-       
-    </div>  
-    <div className="sample3">
-        <a href={bebetterlink}> 
-        <img src={bebetter} alt="Bebetter Image"/> 
-        </a> 
-        <div className="overlaytext-mini">Be-Better <div className="overlay-text-tech"> HTML/CSS/JS</div></div>
-       
-    </div>
-    <div className="sample4">
-        <a href={passwordlink}> 
-        <img src={password} alt="Password Generator Image"/>
-        </a> 
-        <div className="overlaytext-mini">Password Generator <div className="overlay-text-tech"> HTML/CSS/JS</div></div>
-       
-    </div>
-</div>
   );
 }

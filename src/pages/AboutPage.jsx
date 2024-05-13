@@ -15,9 +15,12 @@ export default function AboutPage() {
       <br/>
       Take a look at my work samples at the portfolio link. 
       </p>
-      <br/>
-      <br/>
       <img src={milind}/>
+      <br/>
+        <br/>
+        Email: milindmjoshi@gmail.com
+        <br/>
+        Phone: 240-344-5678
     </div>
   );
 }

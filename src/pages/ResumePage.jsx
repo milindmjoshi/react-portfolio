@@ -1,5 +1,4 @@
 // This is a static page mocking an "About Us" section for our fake user data
-import milind from "../assets/images/Milind.jpg";
 export default function ResumePage() {
   return (
     <div className="container pt-4">
@@ -7,11 +6,11 @@ export default function ResumePage() {
       <h3>Education</h3>
       <p>
         <ul>
-          <li>MSIS American Univerisy, Washington DC</li>
+          <li>MSIS American University, Washington DC</li>
           <li>BSEE University of Maryland, College Park , Cum Laude</li>
         </ul>
       </p>
-      <h3>Front End Technologies Expertise</h3>
+      <h3>Front End Technologies</h3>
       <p>
         <ul>
           <li>HTML 5</li>
@@ -21,7 +20,7 @@ export default function ResumePage() {
           <li>React JS</li>
         </ul>
       </p>
-      <h3>Backend Technologies Expertise</h3>
+      <h3>Backend Technologies</h3>
       <p>
         <ul>
           <li>Node JS</li>

@@ -6,6 +6,11 @@ import password from '../assets/images/password.png'
 
 import Project from '../components/Project';
 
+const worksamplegit = "https://github.com/milindmjoshi/week1HTMLCSS";
+const bebettergit = "https://github.com/milindmjoshi/be-better";
+const weathergit = "https://github.com/milindmjoshi/weather-forecast";
+const workdaygit = "https://github.com/milindmjoshi/workday-scheduler"
+const passwordgit = "https://github.com/milindmjoshi/password-generator"
 
 const worksamplelink = 'https://milindmjoshi.github.io/week1HTMLCSS/';
 const bebetterlink = 'https://milindmjoshi.github.io/be-better/';
@@ -20,11 +25,11 @@ export default function PortfolioPage() {
 
   return (
     <div className="worksample">
-     <Project link={worksamplelink} img={worksamplemain} imgText="main sample" text="508 compliant website" class="mainsample"/>
-    <Project link={weatherlink} img={weatherforecast} imgText="Weather Forecast Image" text="Weather Forecast" class="sample1"/>
-    <Project link={workdaylink} img={workday} imgText="Workday Image" text="Workday Scheduler" class="sample2"/>
-    <Project link={bebetterlink} img={bebetter} imgText="Bebetter Image" text="Be-Better" class="sample3"/>
-    <Project link={passwordlink} img={password} imgText="Password Generator Image" text="Password Generator" class="sample4"/>
+     <Project link={worksamplelink} gitlink={worksamplegit} img={worksamplemain} imgText="main sample" text="508 compliant website" class="mainsample"/>
+    <Project link={weatherlink} gitlink={weathergit} img={weatherforecast} imgText="Weather Forecast Image" text="Weather Forecast" class="sample1"/>
+    <Project link={workdaylink} gitlink={workdaygit} img={workday} imgText="Workday Image" text="Workday Scheduler" class="sample2"/>
+    <Project link={bebetterlink} gitlink={bebettergit} img={bebetter} imgText="Bebetter Image" text="Be-Better" class="sample3"/>
+    <Project link={passwordlink} gitlink={passwordgit} img={password} imgText="Password Generator Image" text="Password Generator" class="sample4"/>
     </div>
   );
 }

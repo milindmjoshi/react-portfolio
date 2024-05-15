@@ -14,7 +14,7 @@
 
 ## Description
 A website using React JS to provide information  about me and showcase work to potential employers
-![Screenshot](https://milindmjoshi.github.io/react-portfolio/src/assets/images/react-portfolio.png)
+![Screenshot](https://github.com/milindmjoshi/react-portfolio/blob/main/src/assets/images/react-portfolio.png)
 
 ## Usage
 Access website URL in browser

@@ -4,6 +4,7 @@ import './style.css';
 // Here we import a helper function that will check if the email is valid
 import {  validateEmail } from '../../utils/helpers';
 
+// Contact Page component that displays an input form to enter contact info
 function ContactPage() {
   // Create state variables for the fields in the form
   // We are also setting their initial values to an empty string

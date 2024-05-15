@@ -3,7 +3,7 @@ import github from '../assets/images/github.png';
 import linkedin from '../assets/images/linkedin.png';
 
 export default function Footer() {
-  // The Navbar UI component will render each of the Link elements in the links prop
+// Footer component shows github and linkedin links in footer for all pages
    
   return (
     <div className="ulContainer"> 

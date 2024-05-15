@@ -1,4 +1,4 @@
-// This is a static page mocking an "About Us" section for our fake user data
+// About page for website
 import milind from "../assets/images/Milind.jpg";
 export default function AboutPage() {
   return (
